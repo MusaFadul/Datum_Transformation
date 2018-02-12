@@ -16,7 +16,7 @@ public class FileHandler  {
 	 */
 	public static void filechooserOpenDialog() {
 	     JFileChooser  fileDialog = new JFileChooser();
-	     FileNameExtensionFilter sessionFileFilter = new FileNameExtensionFilter("Files", "txt");
+	     FileNameExtensionFilter sessionFileFilter = new FileNameExtensionFilter("Files", "geojson");
 	     fileDialog.setFileFilter(sessionFileFilter);
 		
 	int returnVal = fileDialog.showOpenDialog(MainFrame.frame);
