@@ -36,6 +36,15 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
 
+
+/**
+ * the 	Application is handeling Geographic to Geocentric and Vise Versa Transformations.
+ * the application is made for Khartoum Unversity Faculty of Engineering urveying Department
+ * the application is also a free source licensed under the apache license, Version 2.0 
+ * @author musa  Fadul 
+ * 
+ *
+ */
 public class MainFrame {
 
 	public static JFrame frame = new JFrame("Geodetic Transformation");;
